@@ -3,11 +3,31 @@
 <head>
     <meta charset="utf-8">
 	<title>My movie</title>
-	<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  	<div class="container-fluid">
+  	  <div class="navbar-header ">
+  	  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#mobile-nav" aria-expand ="false">
+  	  	<span class="icon-bar"></span>
+  	  	<span class="icon-bar"></span>
+  	  	<span class="icon-bar"></span>
+		</button>
+		<a href="movie.html" class="navbar-brand"><img src="img/icon.png" alt="Movie">
+		</a>
+  	  </div>
+  	  <div class="navbar-collapse collapsed" id="mobile-nav">
+		 <ul class="nav navbar-nav navbar-right">
+		 	<li><a href="movie.html">Home</a></li>
+		 	<li><a href="ticket.html">Ticket</a></li>
+		 	<li><a href="about.html">About</a></li>
+		 	<li><a href="contact.html">Contact Us</a></li>
+		 </ul>
+		</div>
+  	</div>
+  </nav>
 <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="

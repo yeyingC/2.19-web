@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'Coneria';
+	src: url('../fonts/Demo_ConeriaScript.ttf');
+	font-weight: normal;
+}
+
 img {
 	width: 100%;
 }
@@ -51,6 +57,37 @@ a {
    margin-top:-18px;
 }
 
+.margin-top{
+	padding-top: 50px;
+}
+.half-width{
+	width: 40%;
+}
+
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+	width: 100%;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	border: 1px solid #b2b2b2 ;  /*width style color*/
+	padding: 10px;
+	margin-bottom: 2rem;
+}
+
+table {
+	color: #fff;
+}
+
+div > h2{
+	color: #fff;
+	font-family: 'Coneria';
+}
+
 footer{
 	background-color: #333;
 }
@@ -63,7 +100,7 @@ footer ul {
 footer ul > li{
 	display: inline-block;
 }
-footer ul > li > a{
+footer ul > li > a {
 	color: #fff;
 	font-size: 16px;
 	padding: 10px 15px;
